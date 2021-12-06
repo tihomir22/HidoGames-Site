@@ -13,12 +13,19 @@ html, body{
     font-size: 100%;
 	font-family: 'Roboto', sans-serif;
 }
+#mc-embedded-subscribe{
+	margin-top: 5px !important;
+}
+.brandingLogo{
+	display: none;
+}
 body{
 	background:#FFFFFF;
 }
 .banner{
 	background: url(../images/wallpaper-header.jpg) no-repeat 0px 0px;
     background-size: cover;
+	height: 90vh;
 }
 .agileinfo-dot{
     background: url(../images/dott.png)repeat 0px 0px;
@@ -28,6 +35,7 @@ body{
     -o-background-size: 2px;
     -ms-background-size: 2px;
     padding: 3em 0;
+	height: 90vh;
 }
 .jarallax {
     position: relative;
